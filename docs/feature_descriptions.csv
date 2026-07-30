@@ -1,0 +1,106 @@
+feature,family,view,description
+area_top,size_shape,top,area descriptor extracted from the segmented fruit region.
+area_side1,size_shape,side1,area descriptor extracted from the segmented fruit region.
+area_side2,size_shape,side2,area descriptor extracted from the segmented fruit region.
+perimeter_top,size_shape,top,perimeter descriptor extracted from the segmented fruit region.
+perimeter_side1,size_shape,side1,perimeter descriptor extracted from the segmented fruit region.
+perimeter_side2,size_shape,side2,perimeter descriptor extracted from the segmented fruit region.
+width_top,size_shape,top,width descriptor extracted from the segmented fruit region.
+width_side1,size_shape,side1,width descriptor extracted from the segmented fruit region.
+width_side2,size_shape,side2,width descriptor extracted from the segmented fruit region.
+height_top,size_shape,top,height descriptor extracted from the segmented fruit region.
+height_side1,size_shape,side1,height descriptor extracted from the segmented fruit region.
+height_side2,size_shape,side2,height descriptor extracted from the segmented fruit region.
+up_ratio_top,shape,top,up_ratio shape descriptor extracted from the segmented fruit region.
+up_ratio_side1,shape,side1,up_ratio shape descriptor extracted from the segmented fruit region.
+up_ratio_side2,shape,side2,up_ratio shape descriptor extracted from the segmented fruit region.
+down_ratio_top,shape,top,down_ratio shape descriptor extracted from the segmented fruit region.
+down_ratio_side1,shape,side1,down_ratio shape descriptor extracted from the segmented fruit region.
+down_ratio_side2,shape,side2,down_ratio shape descriptor extracted from the segmented fruit region.
+diago_ratio_top,shape,top,diago_ratio shape descriptor extracted from the segmented fruit region.
+diago_ratio_side1,shape,side1,diago_ratio shape descriptor extracted from the segmented fruit region.
+diago_ratio_side2,shape,side2,diago_ratio shape descriptor extracted from the segmented fruit region.
+compactness_top,shape,top,compactness shape descriptor extracted from the segmented fruit region.
+compactness_side1,shape,side1,compactness shape descriptor extracted from the segmented fruit region.
+compactness_side2,shape,side2,compactness shape descriptor extracted from the segmented fruit region.
+solidity_top,shape,top,solidity shape descriptor extracted from the segmented fruit region.
+solidity_side1,shape,side1,solidity shape descriptor extracted from the segmented fruit region.
+solidity_side2,shape,side2,solidity shape descriptor extracted from the segmented fruit region.
+roundness_top,shape,top,roundness shape descriptor extracted from the segmented fruit region.
+roundness_side1,shape,side1,roundness shape descriptor extracted from the segmented fruit region.
+roundness_side2,shape,side2,roundness shape descriptor extracted from the segmented fruit region.
+convexity_top,shape,top,convexity shape descriptor extracted from the segmented fruit region.
+convexity_side1,shape,side1,convexity shape descriptor extracted from the segmented fruit region.
+convexity_side2,shape,side2,convexity shape descriptor extracted from the segmented fruit region.
+rectangularity_top,shape,top,rectangularity shape descriptor extracted from the segmented fruit region.
+rectangularity_side1,shape,side1,rectangularity shape descriptor extracted from the segmented fruit region.
+rectangularity_side2,shape,side2,rectangularity shape descriptor extracted from the segmented fruit region.
+ellipticity_top,shape,top,ellipticity shape descriptor extracted from the segmented fruit region.
+ellipticity_side1,shape,side1,ellipticity shape descriptor extracted from the segmented fruit region.
+ellipticity_side2,shape,side2,ellipticity shape descriptor extracted from the segmented fruit region.
+aspect_ratio_top,shape,top,aspect_ratio shape descriptor extracted from the segmented fruit region.
+aspect_ratio_side1,shape,side1,aspect_ratio shape descriptor extracted from the segmented fruit region.
+aspect_ratio_side2,shape,side2,aspect_ratio shape descriptor extracted from the segmented fruit region.
+stem_calyx_ratio_top,shape,top,stem_calyx_ratio shape descriptor extracted from the segmented fruit region.
+stem_calyx_ratio_side1,shape,side1,stem_calyx_ratio shape descriptor extracted from the segmented fruit region.
+stem_calyx_ratio_side2,shape,side2,stem_calyx_ratio shape descriptor extracted from the segmented fruit region.
+max_width_height_ratio_top,shape,top,max_width_height_ratio shape descriptor extracted from the segmented fruit region.
+max_width_height_ratio_side1,shape,side1,max_width_height_ratio shape descriptor extracted from the segmented fruit region.
+max_width_height_ratio_side2,shape,side2,max_width_height_ratio shape descriptor extracted from the segmented fruit region.
+symmetry_top,shape,top,symmetry shape descriptor extracted from the segmented fruit region.
+symmetry_side1,shape,side1,symmetry shape descriptor extracted from the segmented fruit region.
+symmetry_side2,shape,side2,symmetry shape descriptor extracted from the segmented fruit region.
+R_top,color_mean,top,Mean R channel value within the segmented fruit region.
+R_side1,color_mean,side1,Mean R channel value within the segmented fruit region.
+R_side2,color_mean,side2,Mean R channel value within the segmented fruit region.
+G_top,color_mean,top,Mean G channel value within the segmented fruit region.
+G_side1,color_mean,side1,Mean G channel value within the segmented fruit region.
+G_side2,color_mean,side2,Mean G channel value within the segmented fruit region.
+B_top,color_mean,top,Mean B channel value within the segmented fruit region.
+B_side1,color_mean,side1,Mean B channel value within the segmented fruit region.
+B_side2,color_mean,side2,Mean B channel value within the segmented fruit region.
+L_top,color_mean,top,Mean L channel value within the segmented fruit region.
+L_side1,color_mean,side1,Mean L channel value within the segmented fruit region.
+L_side2,color_mean,side2,Mean L channel value within the segmented fruit region.
+a_top,color_mean,top,Mean a channel value within the segmented fruit region.
+a_side1,color_mean,side1,Mean a channel value within the segmented fruit region.
+a_side2,color_mean,side2,Mean a channel value within the segmented fruit region.
+b_top,color_mean,top,Mean b channel value within the segmented fruit region.
+b_side1,color_mean,side1,Mean b channel value within the segmented fruit region.
+b_side2,color_mean,side2,Mean b channel value within the segmented fruit region.
+R_std_top,color_sd,top,Standard deviation of R channel values within the segmented fruit region.
+R_std_side1,color_sd,side1,Standard deviation of R channel values within the segmented fruit region.
+R_std_side2,color_sd,side2,Standard deviation of R channel values within the segmented fruit region.
+G_std_top,color_sd,top,Standard deviation of G channel values within the segmented fruit region.
+G_std_side1,color_sd,side1,Standard deviation of G channel values within the segmented fruit region.
+G_std_side2,color_sd,side2,Standard deviation of G channel values within the segmented fruit region.
+B_std_top,color_sd,top,Standard deviation of B channel values within the segmented fruit region.
+B_std_side1,color_sd,side1,Standard deviation of B channel values within the segmented fruit region.
+B_std_side2,color_sd,side2,Standard deviation of B channel values within the segmented fruit region.
+L_std_top,color_sd,top,Standard deviation of L channel values within the segmented fruit region.
+L_std_side1,color_sd,side1,Standard deviation of L channel values within the segmented fruit region.
+L_std_side2,color_sd,side2,Standard deviation of L channel values within the segmented fruit region.
+a_std_top,color_sd,top,Standard deviation of a channel values within the segmented fruit region.
+a_std_side1,color_sd,side1,Standard deviation of a channel values within the segmented fruit region.
+a_std_side2,color_sd,side2,Standard deviation of a channel values within the segmented fruit region.
+b_std_top,color_sd,top,Standard deviation of b channel values within the segmented fruit region.
+b_std_side1,color_sd,side1,Standard deviation of b channel values within the segmented fruit region.
+b_std_side2,color_sd,side2,Standard deviation of b channel values within the segmented fruit region.
+dissimilarity_top,texture,top,GLCM dissimilarity texture descriptor within the segmented fruit region.
+dissimilarity_side1,texture,side1,GLCM dissimilarity texture descriptor within the segmented fruit region.
+dissimilarity_side2,texture,side2,GLCM dissimilarity texture descriptor within the segmented fruit region.
+correlation_top,texture,top,GLCM correlation texture descriptor within the segmented fruit region.
+correlation_side1,texture,side1,GLCM correlation texture descriptor within the segmented fruit region.
+correlation_side2,texture,side2,GLCM correlation texture descriptor within the segmented fruit region.
+homogeneity_top,texture,top,GLCM homogeneity texture descriptor within the segmented fruit region.
+homogeneity_side1,texture,side1,GLCM homogeneity texture descriptor within the segmented fruit region.
+homogeneity_side2,texture,side2,GLCM homogeneity texture descriptor within the segmented fruit region.
+contrast_top,texture,top,GLCM contrast texture descriptor within the segmented fruit region.
+contrast_side1,texture,side1,GLCM contrast texture descriptor within the segmented fruit region.
+contrast_side2,texture,side2,GLCM contrast texture descriptor within the segmented fruit region.
+energy_top,texture,top,GLCM energy texture descriptor within the segmented fruit region.
+energy_side1,texture,side1,GLCM energy texture descriptor within the segmented fruit region.
+energy_side2,texture,side2,GLCM energy texture descriptor within the segmented fruit region.
+entropy_top,texture,top,GLCM entropy texture descriptor within the segmented fruit region.
+entropy_side1,texture,side1,GLCM entropy texture descriptor within the segmented fruit region.
+entropy_side2,texture,side2,GLCM entropy texture descriptor within the segmented fruit region.

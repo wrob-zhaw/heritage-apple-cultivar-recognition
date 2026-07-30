@@ -1,0 +1,6 @@
+Model,Eval_Domain,Phase,n_folds,Apl_Top1_mean_percent,Apl_Top1_sd_percent,Apl_Top3_mean_percent,Apl_Top3_sd_percent,Apl_Top5_mean_percent,Apl_Top5_sd_percent,Balanced_Acc_mean_percent,Balanced_Acc_sd_percent,Macro_F1_mean_percent,Macro_F1_sd_percent,New_Field_Exact_MajVote_3_mean_percent,New_Field_Exact_MajVote_3_sd_percent,New_Field_Exact_MajVote_5_mean_percent,New_Field_Exact_MajVote_5_sd_percent
+SAT_resnet50_38_varieties_LOTO_CV3_2021_Loc_1_SGD_IMAGENET1K_V2_epochs300_batch128,in_domain,test,3,87.029,5.298,95.457,3.126,98.058,1.292,86.158,3.036,85.366,3.395,93.574,2.593,95.858,2.298
+SAT_resnet50_38_varieties_LOTO_Strict_2021_Loc_1_SGD_IMAGENET1K_V2_epochs300_batch128,in_domain,test,1,73.826,,92.617,,95.638,,69.925,,68.836,,80.874,,84.727,
+SAT_vit_b16_384px_38_varieties_LOTO_CV3_2021_Loc_1_SGD_SWAG_E2E_epochs300_batch32,in_domain,test,3,93.509,1.021,98.810,0.171,99.781,0.189,92.893,1.253,92.747,1.339,98.675,0.557,99.593,0.482
+SAT_vit_b16_384px_38_varieties_LOTO_CV3_2021_Loc_1_SGD_batch64_SWAG_E2E_epochs300_batch64,in_domain,test,3,95.021,0.765,98.926,0.798,99.466,0.664,94.181,0.979,94.126,1.085,98.499,0.291,98.940,1.361
+SAT_vit_b16_38_varieties_LOTO_CV3_2021_Loc_1_SGD_SWAG_E2E_epochs300_batch64,in_domain,test,3,95.035,1.552,98.915,0.499,99.456,0.194,93.977,1.677,93.818,1.592,98.653,0.109,99.749,0.320

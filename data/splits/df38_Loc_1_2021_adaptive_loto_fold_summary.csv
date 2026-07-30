@@ -1,0 +1,7 @@
+fold,role,apples,classes,trees,strict_loto_classes,two_tree_loto_classes,single_tree_fallback_classes
+0,train_val,609,38,75,37,1,0
+0,test,298,38,38,37,1,0
+1,train_val,595,38,75,37,1,0
+1,test,312,38,38,37,1,0
+2,train_val,602,38,75,37,1,0
+2,test,305,38,38,37,1,0

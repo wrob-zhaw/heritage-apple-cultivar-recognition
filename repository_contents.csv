@@ -1,0 +1,25 @@
+path,description,rows,columns
+README_Loc_1_2021_reproducibility.md,Overview of the public Loc_1 2021 reproducibility files and external image archive link.,,
+repository_contents.csv,Reader-facing inventory of files included in the repository.,24,4
+data/features/df38_Loc_1_2021_cleaned_svm_ready_features.csv,Main SVM-ready feature table for the Loc_1 2021 38-class subset. Each row is one fruit.,907,114
+data/features/df38_Loc_1_2021_feature_distribution.csv,Descriptive statistics for the released feature columns.,105,11
+data/metadata/df38_Loc_1_2021_apple_metadata.csv,"Fruit-level identifiers, public subset fields, tree identifier, class code, and cultivar name.",907,9
+data/metadata/df38_Loc_1_2021_class_counts.csv,Number of fruits and trees represented for each PL.Code class.,38,6
+data/splits/df38_Loc_1_2021_tree_groups.csv,Mapping from each fruit to its PL.Code class and source tree.,907,3
+data/splits/df38_Loc_1_2021_adaptive_loto_fold_assignments.csv,Train/test assignment for each fruit in each adaptive leave-one-tree-out fold.,2721,11
+data/splits/df38_Loc_1_2021_adaptive_loto_fold_summary.csv,"Fold-level counts of train/test fruits, classes, and trees.",6,8
+data/results/df38_Loc_1_2021_model_fold_metrics_raw.csv,Fold-level metric values used to compute the summary table.,13,24
+data/results/df38_Loc_1_2021_model_metrics_summary_percent.csv,Model-level summary metrics reported as percentages.,5,18
+data/results/df38_vit384_loto_confusion_matrix_percent.csv,Class-by-class ViT-B/16 384 px confusion matrix reported as percentages.,38,39
+data/results/df38_vit384_loto_mean_support_per_fold.csv,Mean test support per class for the ViT-B/16 384 px leave-one-tree-out evaluation.,38,2
+data/results/df38_vit384_loto_offdiagonal_pairs_percent.csv,Non-zero off-diagonal confusion pairs from the ViT-B/16 384 px confusion matrix.,42,6
+data/results/df38_vit384_loto_top3_offdiagonal_pairs.csv,Three largest off-diagonal confusion pairs from the ViT-B/16 384 px confusion matrix.,3,6
+docs/data_dictionary.md,Definitions of the main tables and columns.,,
+docs/feature_descriptions.csv,"Feature names, feature families, image views, and short descriptions.",105,4
+figures/figure_feature_sets_stratified_screening.png,Feature-set comparison for the stratified screening evaluation.,,
+figures/figure_feature_sets_tree_holdout.png,Feature-set comparison for the tree-holdout evaluation.,,
+figures/figure_vit384_confusion_matrix_percent.png,Rendered ViT-B/16 384 px confusion matrix.,,
+scripts/check_repository.py,"Checks core row counts, class counts, tree counts, and public Loc_1 2021 labels.",,
+scripts/reproduce_metric_summary.py,Recomputes the model summary table from fold-level metrics and compares it with the released CSV.,,
+scripts/generate_split_definitions.py,Recreates the adaptive tree-holdout assignments and compares them with the released CSV.,,
+scripts/run_all_checks.py,Runs all included consistency and reproduction checks.,,

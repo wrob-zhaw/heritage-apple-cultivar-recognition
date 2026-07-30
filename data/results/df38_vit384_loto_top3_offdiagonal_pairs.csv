@@ -1,0 +1,4 @@
+actual_code,predicted_code,actual_label,predicted_label,confusion_percent,mean_support_per_fold
+14-001-358,14-001-2791,14-001-358 (Promme Francaise),14-001-2791 (Renetta grigia),16.666666666666668,6.666666666666667
+14-001-765,14-001-1296,14-001-765 (Reinette de Chevroux),14-001-1296 (Wild Balgacher),8.928571428571429,7.666666666666667
+14-001-765,14-001-2042,14-001-765 (Reinette de Chevroux),14-001-2042 (unbekannt 2042),8.928571428571429,7.666666666666667
